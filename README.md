@@ -44,7 +44,7 @@
 </head>
 <body>
   <div id="game">
-    <h2>LOLI - GAME DE "LA COSA"</h2>
+    <h2>LOLI-GAME DE "LA COSA"</h2>
     <div id="scene"></div>
     <div id="choices"></div>
     <div id="inventory"></div>
