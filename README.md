@@ -173,7 +173,7 @@
           ]
         },
         {
-          text: "Fallido. Una pista traviesa: Si la contraseña está relacionada con el lugar de TRABAJO de Frederic, que trabaja en PEIXATERIA FREDERIC, y sabemos que la palabra Frederic NO es la contraseña correcta, qué palabra nos queda?"
+          text: "Fallido. Una pista traviesa: Si la contraseña está relacionada con el lugar de TRABAJO de Frederic, que trabaja en PEIXATERIA FREDERIC, y sabemos que la palabra Frederic NO es la contraseña correcta, qué palabra nos queda?",
           choices: [
             { text: "Reintentar", next: 10 }
           ]
