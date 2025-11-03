@@ -208,11 +208,11 @@ Es momento de honrar la historia del legendario Mero Dorado en un día tan seña
           ]
         },
         {
-          text: "Decides entregarlo. El barrio celebra que el misterio fue resuelto. ¡Fin!",
+          text: "Decides entregarlo. El barrio celebra que el misterio fue resuelto. De la misma manera que los vecinos celebran el fin del misterio, el creador de este juego celebra poder tenerte aquí, digitalmente, jugando a esta tontería que me ha llevado casi 2h programar. Pero vaya, si quien juega vale la pena, ninguna inversión de tiempo es excesiva. FELIZ 4 DE NOVIEMBRE!!! ¡Fin!",
           choices: []
         },
         {
-          text: "Decides probarlo. Es delicioso. Te conviertes en leyenda entre amantes del sushi. ¡Fin!",
+          text: "Decides probarlo. Es delicioso (pero quien juega ahora a este juego más todavía). Te conviertes en leyenda entre amantes del sushi. De la misma manera que los sushi(Lu)-lovers celebran el fin del misterio, el creador de este juego celebra poder tenerte aquí, digitalmente, jugando a esta tontería que me ha llevado casi 2h programar. Pero vaya, si quien juega vale la pena, ninguna inversión de tiempo es excesiva. FELIZ 4 DE NOVIEMBRE!!! ¡Fin!",
           choices: []
         }
       ]
