@@ -5,26 +5,35 @@
   <title>El Misterio del Mero Dorado</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
-   body {
-  background: #0e1a2b;
-  color: #f0f8ff;
-  font-family: 'Segoe UI', Tahoma, sans-serif;
-  display: flex;
-  justify-content: center;
-  padding: 40px 0;
-  min-height: 100vh;
-  overflow-y: auto; /* ✅ permite scroll general */
-  align-items: flex-start; /* ✅ evita que el juego se corte si crece */
-}
+    body {
+      background: #0e1a2b;
+      color: #f0f8ff;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      display: flex;
+      justify-content: center;
+      padding: 40px 0;
+      min-height: 100vh;
+      overflow-y: auto; /* ✅ allows full page scrolling if needed */
+      align-items: flex-start; /* so the game starts at top */
+    }
     #game {
       width: 90%; max-width: 700px;
       background: rgba(20, 35, 60, 0.95);
       border-radius: 16px; padding: 30px;
       box-shadow: 0 0 20px rgba(0,0,0,0.7);
-      position: relative; overflow: hidden;
+      position: relative;
+      /* was: overflow: hidden; -- REMOVE IT! */
+      overflow: visible !important; /* ✅ NO cropping of inner content, important to override any inheritance */
     }
     h2 { text-align: center; margin-bottom: 20px; font-size: 1.8rem; color: #ffdd66; }
-    #scene { margin-bottom: 20px; line-height: 1.5; animation: fadeIn 0.8s ease-in; }
+    #scene {
+      margin-bottom: 20px;
+      line-height: 1.5;
+      animation: fadeIn 0.8s ease-in;
+      word-break: break-word;
+      overflow-wrap: break-word;
+      min-height: 0; /* just in case */
+    }
     #choices button {
       display: block; width: 100%; margin: 8px 0; padding: 12px;
       border: none; border-radius: 8px; background: #336699; color: #fff;
