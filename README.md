@@ -123,7 +123,7 @@
           choices: [ { text: "Guardar llave y seguir", next: 6 } ]
         },
         {
-          text: "No es correcto. El buzón emite un extraño sonido Loli-acuático. Inténtalo de nuevo.",
+          text: "No es correcto. El buzón emite un extraño sonido Loli-acuático que dice algo como *TiEneS qUE pONer 3 DÍgiTos*. Inténtalo de nuevo.",
           choices: [ { text: "Reintentar", next: 1 } ]
         },
         {
@@ -131,7 +131,7 @@
           choices: [ { text: "Ir a Peixateria Frederic", next: 7 } ]
         },
         {
-          text: "Capítulo 2: En la Peixateria Frederic, Frederic, el marido de la dueña Mercè, te lanza un acertijo: ‘¿Cuál de estos peces no puede nadar?’\n\n1) Loli-sword pescadito\n2)[...]",
+          text: "Capítulo 2: En la Peixateria Frederic, el bueno de Frederic, el marido de la dueña Mercè, te lanza un acertijo: ‘¿Cuál de estos peces no puede nadar?’\n\n1) Loli-sword pescadito\n2) Loli-wooden pescadito\n3) Loli-globi pescadito",
           choices: [
             { text: "Loli-wooden pescadito", next: 8 },
             { text: "Loli-globi pescadito", next: 9 },
@@ -139,7 +139,7 @@
           ]
         },
         {
-          text: "¡Correcto! Frederic te entrega una foto de la cámara de seguridad: se ve una silueta con un paraguas rojo.",
+          text: "¡Correcto! Como se nota que le metiste bien duro un mes en el CosmoCaixa, se nota que eres un outlier! Frederic te entrega una foto de una cámara de seguridad de su tienda: se ve una silueta de una mochila roja.",
           choices: [ { text: "Seguir la silueta", next: 10 } ]
         },
         {
@@ -147,48 +147,48 @@
           choices: [ { text: "Reintentar", next: 7 } ]
         },
         {
-          text: "Capítulo 3: Sigues la silueta. En su mochila ves un diario con contraseña escrita en letras mayúsculas. Parece que el término a introducir está relacionado con el lugar de t[...]",
+          text: "Capítulo 3: Sigues la silueta hasta encontrar la mochila. Dentro de esta ves un diario que requiere una contraseña escrita en letras mayúsculas. Parece que el término a introducir está relacionado con el lugar de trabajo de Frederic",
           input: true,
           correct: "PEIXATERIA",
           success: 11,
           fail: 12
         },
         {
-          text: "Bien hecho. El diario revela: el Mero Dorado está en un local oculto bajo la calle.",
+          text: "Bien hecho! El diario revela un mapa secreto para encontrar el legendario Mero Dorado. Lo más increíble es que se encuentra en un local secreto no muy lejos de tu ubicación",
           choices: [ { text: "Ir al local secreto", next: 13 } ]
         },
         {
-          text: "Fallido. Una pista traviesa: Si la contraseña está relacionada con el lugar de TRABAJO de Frederic, que trabaja en PEIXATERIA FREDERIC, y sabemos que la palabra Frederic NO es [...]",
+          text: "Fallido. Una pista traviesa: Si la contraseña está relacionada con el lugar de TRABAJO de Frederic, que trabaja en PEIXATERIA FREDERIC, y sabemos que la palabra Frederic NO es la contraseña, qué palabra nos queda?",
           choices: [ { text: "Reintentar", next: 10 } ]
         },
         {
-          text: "Capítulo 4: Estás frente al acceso secreto. La pista dice:\n“Blub blub blub, por la memoria de Nemo... (en mayúsculas y sin espacios)”.",
+          text: "Capítulo 4: Estás frente al acceso secreto. La pista dice:\n“Blub blub blub, por la memoria de Nemo, ga gagá gagá por los pelos de Foxy, clin clin clin por los 7 colores del espectro... a qué permiten invocar estas expresiones mágicas y esotéricas? (en mayúsculas y sin espacios)”.",
           input: true,
           correct: "NIÑOINTERIOR",
           success: 14,
           fail: 15
         },
         {
-          text: "Acceso concedido. Dentro ves al chef gargantúo con el famoso y legendario Mero Dorado...",
-          choices: [ { text: "Confrontar al chef", next: 16 } ]
+          text: "Acceso concedido. Dentro del local secreto encuentras al chef gargantúo con el famoso y legendario Mero Dorado entre sus manos. No solo eso, sino que alrededor también logró reunir a las 3 razas de peces supremos: Lola, Lolita y Lolota. Tiemblas ante la posibilidad de que, si las 4 razas de peces lo reconocen como válido, desbloquee el poder secreto que puede cargarse el mundo si cayera en manos equivocadas. Ante la posibilidad de que se dé tal calamidad, sabes que solo tienes una opción.",
+          choices: [ { text: "Confrontar al chef con Loli-diálogo y, si se pone farruko, también a Loli-puñetazo limpio", next: 16 } ]
         },
         {
           text: "No funciona. Acaso alguien ya no se acuerda de un hechizo tan icónico para despertar a tu NIÑO INTERIOR?",
           choices: [ { text: "Reintentar", next: 13 } ]
         },
         {
-          text: "Capítulo 5: Confrontación final...",
+          text: "Capítulo 5: Cómo no, el chef es cautivado por tu preciosa sonrisa y el Loli-diálogo es más que suficiente para calmarlo. Lola, Lolita y Lolota te sonríen y dan las gracias por tu enorme hazaña. Además, ves detrás de los peces que el tipo cocinó una pumpkin pie que no se ha comido todavía. Sabiendo todo lo sucedido, por qué opción optas?",
           choices: [
-            { text: "Llamas a la policía", next: 17 },
-            { text: "Te comes el pastel de calabaza", next: 18 }
+            { text: "Llamas a la policía y envías al calabozo al chef. Si ya sucedió una vez esta amenaza, siempre sabrá cómo armar el caos por 2a vez", next: 17 },
+            { text: "Lo dejas irse y rehacer una nueva vida. Eso sí, te comes su pastel de calabaza puesto que salvar el mundo siempre te da hambre", next: 18 }
           ]
         },
         {
-          text: "Final 1: Entregas al chef. ¡Feliz 4 de noviembre!",
+          text: "Final 1: Entregas al chef a la policía. Los vecinos del barrio celebran felizmente que la amenaza ya pasó y no fue a nada más grave. Se decreta el día 3 de mayo como festivo nacional, el Presidente del Gobierno te condecora con una medalla honoraria por defensa de la paz, y pasas a ser una eminencia reconocida y celebrada por todo el mundo. No solo eso, sino que yo celebro tener, digitalmente en este caso, a quién está jugando a este juego que me ha llevado más de 3h programar. Pero vaya, si el público a quien se destina todo esto vale la pena, ninguna inversión de tiempo es excesiva. Qué mejor que hoy, un día cualquiera, para celebrarnos a nosotros mismos sin esperar a ninguna fecha señalada ¡FELIZ 4 NOVIEMBRE!!! (QUÉ FUERTE 6 MESES Y 1 DÍA DESPUÉS DEL 3 DE MAYO!!). Salvaste al mundo, viviste una vida feliz y acabaste ganando el Nobel de la Paz. ¡FIN! ",
           choices: []
         },
         {
-          text: "Final 2: Te comes el pastel. ¡Feliz 4 de noviembre!",
+          text: "Final 2: Te comes el pastel. Está delicioso, aunque quien está leyendo esto lo está todavía más. Lola, Lolita y Lolota se unen al festín contigo después de oír que conociste a sus primas en el CosmoCaixa. En general te sientes feliz de haber dado una segunda oportunidad a alguien que la estaba liando, aunque te hace todavía más feliz tu pastel de calabaza. Los rumores se extienden rápido por el barrio y pasas a ser una leyenda adorada por el club de los pumpkin(Lu)-lovers. No solo eso, sino que yo celebro tener, digitalmente en este caso, a quién está jugando a este juego que me ha llevado más de 3h programar. Pero vaya, si el público a quien se destina todo esto vale la pena, ninguna inversión de tiempo es excesiva. Qué mejor que hoy, un día cualquiera, para celebrarnos a nosotros mismos sin esperar a ninguna fecha señalada ¡FELIZ 4 NOVIEMBRE!!! (QUÉ FUERTE 6 MESES Y 1 DÍA DESPUÉS DEL 3 DE MAYO!!). Viviste una vida feliz, rodeada de los tuyos y disfrutando de pumpkin pie de la Sofi de tanto en cuando, ¡FIN!",
           choices: []
         }
       ]
